@@ -7,7 +7,7 @@ import './style.scss';
 
 const Scrollbar = React.lazy(() => import("smooth-scrollbar"));
 
-const MainDemo = React.lazy(() => import("../views/home/MainDemo"));
+// const MainDemo = React.lazy(() => import("../views/home/MainDemo"));
 const Demo2 = React.lazy(() => import("../views/home/Demo2"));
 const Demo3 = React.lazy(() => import("../views/home/Demo3"));
 
