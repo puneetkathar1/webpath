@@ -21,13 +21,13 @@ import Footer from "../../components/footer/Footer";
 import { Helmet } from "react-helmet";
 
 const heroContent = {
-  title: "We Are Digital Agency.",
+  title: "We Develop Websites.",
   src: "//theme.dsngrid.com/video/videos.mp4",
   video: {
     poster: "/assets/img/video-bg.jpg",
     loop: true,
   },
-  subTitle: `We make digital products and services.`,
+  subTitle: `We provide services for Fullstack Web Development & SaaS Development.`,
 };
 
 function Demo3(props) {
@@ -118,21 +118,21 @@ function Demo3(props) {
       {/*End Testimonial*/}
 
       {/*Start Blog*/}
-      <Container className="section-margin dsn-right-container">
+      {/* <Container className="section-margin dsn-right-container">
         <TitleSection description="Latest News">
           Latest & Greatest Post
         </TitleSection>
         <BlogSwiper grabCursor loop autoHeight />
-      </Container>
+      </Container> */}
       {/*End Blog*/}
 
       {/*Start Brand*/}
-      <Container className="section-margin">
+      {/* <Container className="section-margin">
         <TitleSection description="Our clients">
           Your successful, our <br /> reputation
         </TitleSection>
         <BrandClient col={3} colTablet={2} colGap={2} rowGap={2} />
-      </Container>
+      </Container> */}
       {/*End Brand*/}
 
       <NextPageContent className="section-margin" />
