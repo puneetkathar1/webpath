@@ -9,7 +9,7 @@ function Copyright({ className, ...restProps }) {
         <div className="copyright-text over-hidden">
           Designed by
           <a href="0#" target="_blank">
-            Puneet Kathar
+            WebPath
           </a>
         </div>
       </div>
